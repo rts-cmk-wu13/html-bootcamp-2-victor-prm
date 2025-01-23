@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
-    <link rel="stylesheet" href="style.css">
+   <!--  <link rel="stylesheet" href="style.css"> -->
 </head>
 
 <body>
@@ -17,14 +17,14 @@
                 <input type="search">
             </div>
             <div class="logo container">
-                <img src="https://fakeimg.pl/240x64?text=Information" alt="Logo">
+                <img src="https://fakeimg.pl/240x64?text=Logo" alt="Logo">
             </div>
             <div class="menu-and-search">
                 <button>Login<i class="material-symbols-outlined">person</i></button>
             </div>
         </nav>
         <div>
-            <ul style="display: flex; justify-content: space-evenly">
+            <ul>
                 <li>
                     <a href="#">Nyhedsbreve</a>
                 </li>
@@ -38,34 +38,187 @@
         </div>
     </header>
     <main>
-        <article>
-            <div class="ad-container">
-                <img src="https://fakeimg.pl/480x120?text=Reklame" alt="Sponsored Ad">
+        <section class="current-article">
+            <article>
+                <div class="ad-container">
+                    <img src="https://fakeimg.pl/480x120?text=Reklame" alt="Sponsored Ad">
+                </div>
+                <div class="article-header">
+
+                    <p><span  class="subscription-needed">Abonnement</span> | Læsetid: <span class="reading-time">7 minutter</span></p>
+                    <h1>Gas er et godt politisk våben. Lorem ipsum dolor sit amet consectetur.</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ipsa aperiam dolores
+                        repellat alias ad repellendus! Quod inventore laudantium, unde veniam eligendi aperiam nobis
+                        adipisci a sunt consequatur est tenetur aspernatur dolor ratione nisi, qui ipsam recusandae
+                        nihil porro beatae? Ullam, fugiat earum quos aliquid dolore deleniti reprehenderit voluptatum
+                        quisquam esse. Aliquid perferendis voluptas laudantium enim aliquam ipsam officiis blanditiis?
+                    </p>
+                    <figure>
+                        <img src="https://fakeimg.pl/480x120?text=Cover Image" alt="Article main image">
+                        <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, adipisci?</figcaption>
+                    </figure>
+                </div>
+                <div class="article-body">
+                    <aside class="article-metadata">
+                        <h5 class="category">Udland</h5>
+                        <div class="author-details">
+                            <p class="bold" id="author">Jakob Stein</p>
+                            <div class="author-contact">
+                                <span>
+                                    <a href="#">
+                                        <i class="material-symbols-outlined">email</i>
+                                        Email
+                                    </a>
+                                </span>
+                                <span>
+                                    <a href="#">
+                                        <i class="material-symbols-outlined">raven</i>
+                                        Twitter
+                                    </a>
+                                </span>
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="editor-details">
+                            <p class="bold" id="editor">Peter Nygaard Christensen</p>
+                            <span>
+                                <a href="#">
+                                    <i class="material-symbols-outlined">email</i>
+                                    Email
+                                </a>
+                            </span>
+                        </div>
+                    </aside>
+                    <div class="article">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis enim numquam sapiente. Ratione
+                        ipsum
+                        sunt doloribus necessitatibus eaque qui quod unde reiciendis quasi, inventore deleniti labore
+                        voluptatibus facere quae dicta velit laboriosam repellendus maxime commodi dolorem. Placeat
+                        reprehenderit dolores quam ratione vero expedita ab assumenda impedit voluptatem sunt modi
+                        aperiam
+                        repellat, consequuntur consectetur soluta? Accusantium odit atque in id quaerat repellat officia
+                        fugit sunt, illum possimus fugiat tempore doloribus qui deleniti, nostrum sed exercitationem
+                        minima
+                        obcaecati commodi quo eaque iste. Explicabo, quam. Ipsam corrupti ut ipsa tempora, quas vero
+                        consectetur tenetur dicta dolores modi enim incidunt voluptatum quia earum repudiandae impedit
+                        soluta, eligendi mollitia expedita magni animi aliquam sequi voluptatem veritatis. Optio aut
+                        consequatur magnam voluptate, fuga ad dignissimos expedita.
+                    </div>
+
+                </div>
+                <div class="article-subscription-cta">
+                    <h4 class="article-subscription-cta-text">
+                        Vores abonnenter kalder os kritisk, seriøs og troværdig. Se om du er enig
+                    </h4>
+                    <button>Klik her</button>
+                    <p>Allerede abonnent? <a href="#">klik her</a></p>
+                </div>
+            </article>
+        </section>
+        <section class="suggestions">
+            <div class="suggestions-header">
+                <h2>Fik du læst?</h2>
+                <div class="carousel-buttons">
+                    <i class="material-symbols-outlined">arrow_back</i>
+                    <i class="material-symbols-outlined">arrow_forward</i>
+                </div>
             </div>
-         <div class="article-header">
-            <p class="reading-time">7 minutes</p>
-            <h1>Gas er et godt politisk våben. Lorem ipsum dolor sit amet consectetur.</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ipsa aperiam dolores repellat alias ad repellendus! Quod inventore laudantium, unde veniam eligendi aperiam nobis adipisci a sunt consequatur est tenetur aspernatur dolor ratione nisi, qui ipsam recusandae nihil porro beatae? Ullam, fugiat earum quos aliquid dolore deleniti reprehenderit voluptatum quisquam esse. Aliquid perferendis voluptas laudantium enim aliquam ipsam officiis blanditiis?</p>
-            <figure>
-                <img src="https://fakeimg.pl/480x120?text=Cover Image" alt="Article main image">
-                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, adipisci?</figcaption>
-            </figure>
-         </div>
-         <div class="article-metadata">
-            <h1>TODO</h1>
-         </div>
-         <div class="article-body">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis enim numquam sapiente. Ratione ipsum sunt doloribus necessitatibus eaque qui quod unde reiciendis quasi, inventore deleniti labore voluptatibus facere quae dicta velit laboriosam repellendus maxime commodi dolorem. Placeat reprehenderit dolores quam ratione vero expedita ab assumenda impedit voluptatem sunt modi aperiam repellat, consequuntur consectetur soluta? Accusantium odit atque in id quaerat repellat officia fugit sunt, illum possimus fugiat tempore doloribus qui deleniti, nostrum sed exercitationem minima obcaecati commodi quo eaque iste. Explicabo, quam. Ipsam corrupti ut ipsa tempora, quas vero consectetur tenetur dicta dolores modi enim incidunt voluptatum quia earum repudiandae impedit soluta, eligendi mollitia expedita magni animi aliquam sequi voluptatem veritatis. Optio aut consequatur magnam voluptate, fuga ad dignissimos expedita.
-         </div>
-         <div class="article-subscription-cta">
-            <h5>
-                Vores abonnenter kalder os kritisk, seriøs og troværdig. Se om du er enig
-            </h5>
-            <button>Klik her</button>
-            <p>Allerede abonnent? <a href="#" >klik her</a></p>
-         </div> 
-        </article>
-       
+            <div class="suggestions-carousel">
+                <article>
+                    <img src="https://fakeimg.pl/240x64?text=Suggestion" alt="suggestion image">
+                    <h4>Alterniv forbrødning, Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+                        suscipit?</h4>
+                </article>
+                <article>
+                    <img src="https://fakeimg.pl/240x64?text=Suggestion" alt="suggestion image">
+                    <h4>Jeg måtte ud på det dybe vand, dolor sit amet consectetur adipisicing elit. Eligendi,
+                        suscipit?</h4>
+                </article>
+                <article>
+                    <img src="https://fakeimg.pl/240x64?text=Suggestion" alt="suggestion image">
+                    <h4>Iceage lever stadig op til den hype, Lorem ipsum dolor adipisicing elit. Eligendi,
+                        suscipit?</h4>
+                </article>
+                <article>
+                    <img src="https://fakeimg.pl/240x64?text=Suggestion" alt="suggestion image">
+                    <h4>Under normale forhold, Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+                        suscipit?</h4>
+                </article>
+            </div>
+
+        </section>
+        <section class="latest-news">
+            <aside>
+                <h5>Seneste nyt</h5>
+                <div class="news-item-small">
+                    <small>16:36</small>
+                    <h6>Slut med møntbetaling i københavnske p-automater</h6>
+                </div>
+                <div class="news-item-small">
+                    <small>16:26</small>
+                    <h6>Energiminister: Afgift på biomasse er forkert vej at gå</h6>
+                </div>
+                <div class="news-item-small">
+                    <small>15:45</small>
+                    <h6>Libanesisk premierministers parti går en tredjedel tilbage</h6>
+                </div>
+                <div class="news-item-small">
+                    <small>15:10</small>
+                    <h6>Ombudsmand: Offentligheden må se kronprinsens IOC-breve</h6>
+                </div>
+                <div class="news-item-small">
+                    <small>15:02</small>
+                    <h6>WWF: Vildsvinehegn skader andre dyrearter i grænselandet</h6>
+                </div>
+                <div class="news-item-small">
+                    <small>14:46</small>
+                    <h6>Atomaftale med Iran fortsætter også uden om USA</h6>
+                </div>
+                <button id="more-news">Flere nyheder <i class="material-symbols-outlined">chevron_right</i></button>
+            </aside>
+            <div>
+                <span><i class="material-symbols-outlined">chevron_right</i><h6>Forsiden lige nu</h6></span>
+                <div class="frontpage-portal">
+                    <article>
+                        <p><span  class="subscription-needed">Abonnement</span></p>
+                        <img src="https://fakeimg.pl/240x64?text=Frontpager" alt="frontpage suggestion image">
+                        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, veritatis?</h4>
+                    </article>
+                    <article>
+                        <p><span  class="subscription-needed">Abonnement</span></p>
+                        <img src="https://fakeimg.pl/240x64?text=Frontpager" alt="frontpage suggestion image">
+                        <h4>Mand dig op, dolor sit amet consectetur adipisicing elit. Perferendis, veritatis?</h4>
+                    </article>
+                    <article>
+                        <p><span  class="subscription-needed">Abonnement</span></p>
+                        <img src="https://fakeimg.pl/240x64?text=Frontpager" alt="frontpage suggestion image">
+                        <h4>Peter Madsen, dolor sit amet consectetur adipisicing elit. Perferendis, veritatis?</h4>
+                    </article>
+                    <article>
+                        <p><span  class="subscription-needed">Abonnement</span></p>
+                        <img src="https://fakeimg.pl/240x64?text=Frontpager" alt="frontpage suggestion image">
+                        <h4>Norsk rapport, dolor sit amet consectetur adipisicing elit. Perferendis, veritatis?</h4>
+                    </article>
+                    <article>
+                        <p><span  class="subscription-needed">Abonnement</span></p>
+                        <img src="https://fakeimg.pl/240x64?text=Frontpager" alt="frontpage suggestion image">
+                        <h4>Sådan håndteres dolor sit amet consectetur adipisicing elit. Perferendis, veritatis?</h4>
+                    </article>
+                    <article>
+                        <p><span  class="subscription-needed">Abonnement</span></p>
+                        <img src="https://fakeimg.pl/240x64?text=Frontpager" alt="frontpage suggestion image">
+                        <h4>44.000 Syrere dolor sit amet consectetur adipisicing elit. Perferendis, veritatis?</h4>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="comments">
+            
+        </section>
+
     </main>
     <footer>
 
